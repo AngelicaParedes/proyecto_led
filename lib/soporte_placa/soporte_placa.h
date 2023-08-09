@@ -9,13 +9,11 @@
  * @brief Handles correspondientes a los pines de entrada/salida, para 
  * usar en el parámetro hPin (primer parámetro) de las funciones SP_Pin_xxx
  * 
- * @note PB9 es el pin 9 del puerto B
- * @note PC13 es el pin 13 del puerto C
- * @note PA7 es el pin 7 del puerto A
+ * @note PA6 es el pin 6 del puerto A
  */
 enum SP_Pines{
-    SP_PA6, 
-    SP_PA4,
+    SP_PA4, 
+    SP_PA6,
     SP_NUM_PINES
 };
 
